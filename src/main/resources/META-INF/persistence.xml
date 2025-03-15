@@ -16,7 +16,7 @@
             <property name="eclipselink.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
             <property name="eclipselink.jdbc.url" value="jdbc:mysql://avnadmin:AVNS_Op6uEvdNOBGoOueV6Ie@mysql-24dd3c63-taherkarima47-9b0d.g.aivencloud.com:25794/defaultdb?ssl-mode=REQUIRED"/>
             <property name="eclipselink.jdbc.user" value="avnadmin"/>
-            <property name="eclipselink.jdbc.password" value="AVNS_Op6uEvdNOBGoOueV6Ie"/>
+          <!--  <property name="eclipselink.jdbc.password" value="AVNS_Op6uEvdNOBGoOueV6Ie"/>-->
             <property name="eclipselink.ddl-generation" value="create-or-extend-tables"/>
             <property name="eclipselink.ddl-generation.output-mode" value="database"/>
             <property name="eclipselink.logging.level" value="FINE"/>
