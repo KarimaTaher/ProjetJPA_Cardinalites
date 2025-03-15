@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<persistence  xmlns="https://jakarta.ee/xml/ns/persistence"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:schemaLocation="https://jakarta.ee/xml/ns/persistence https://jakarta.ee/xml/ns/persistence/persistence_3_2.xsd"
+              version="3.0">
+    <persistence-unit  name="Cardinalite">
+        <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+        <class>org.ensa.Entities.Letudiant</class>
+        <class>org.ensa.Entities.ADDRESS</class>
+        <class>org.ensa.testMappedBy.Commande</class>
+        <class>org.ensa.testMappedBy.Livraison</class>
+        <class>org.ensa.Entities.Course</class>
+        <class>org.ensa.Entities.Prof</class>
+        <properties>
+            <property name="eclipselink.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
+            <property name="eclipselink.jdbc.url" value="jdbc:mysql://avnadmin:AVNS_Op6uEvdNOBGoOueV6Ie@mysql-24dd3c63-taherkarima47-9b0d.g.aivencloud.com:25794/defaultdb?ssl-mode=REQUIRED"/>
+            <property name="eclipselink.jdbc.user" value="avnadmin"/>
+            <property name="eclipselink.jdbc.password" value="AVNS_Op6uEvdNOBGoOueV6Ie"/>
+            <property name="eclipselink.ddl-generation" value="create-or-extend-tables"/>
+            <property name="eclipselink.ddl-generation.output-mode" value="database"/>
+            <property name="eclipselink.logging.level" value="FINE"/>
+        </properties>
+    </persistence-unit>
+
+</persistence>
