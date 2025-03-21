@@ -132,7 +132,18 @@ TEST CARDINALITE 1To1 ETUDINAT--->ADDRESS
             em.persist(etudiant);
             em.getTransaction().commit();
         */
+        /*
+        * POUR LE CAS DE MAPPEDSUPERCLASS
+        * la calsse parent ne sera pas mappé avec une table de la base de donnée
+        * les classes child vont etre mappés et vont avoir les attributs de la classe parent et sa clé primaire en plus de leurs attributs
+        * */
 
+        /*
+        * Pour le CAS DE TABLE_PER_CLASS
+        * tout les classes (enfants et parent) vont etre mappé avec des tables séparés dans la base de données
+        * les calsses child vont avoir les attributs de la classe parent en plus de leurs attributs et aussi sa clé primaire
+        * si la classe parent est abstrait , va pas étre mappé avec la base de données donc on aura le meme cas de MAPPEDSUPERCLASS
+        * */
 
 
 

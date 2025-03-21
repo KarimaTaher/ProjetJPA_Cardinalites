@@ -12,11 +12,19 @@
         <class>org.ensa.testMappedBy.Livraison</class>
         <class>org.ensa.Entities.Course</class>
         <class>org.ensa.Entities.Prof</class>
+        <class>org.ensa.Inheritence_MappedSuperclass.Animal</class>
+        <class>org.ensa.Inheritence_MappedSuperclass.Chat</class>
+        <class>org.ensa.Inheritence_MappedSuperclass.Chien</class>
+        <class>org.ensa.Inheritence_TABLE_PER_CLASS.Vehicule</class>
+        <class>org.ensa.Inheritence_TABLE_PER_CLASS.Moto</class>
+        <class>org.ensa.Inheritence_TABLE_PER_CLASS.Voiture</class>
+        <class>org.ensa.Inheritence_Joined.Personne</class>
+        <class>org.ensa.Inheritence_Joined.Employee</class>
         <properties>
             <property name="eclipselink.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
             <property name="eclipselink.jdbc.url" value="jdbc:mysql://avnadmin:AVNS_Op6uEvdNOBGoOueV6Ie@mysql-24dd3c63-taherkarima47-9b0d.g.aivencloud.com:25794/defaultdb?ssl-mode=REQUIRED"/>
             <property name="eclipselink.jdbc.user" value="avnadmin"/>
-          <!--  <property name="eclipselink.jdbc.password" value="AVNS_Op6uEvdNOBGoOueV6Ie"/>-->
+          <property name="eclipselink.jdbc.password" value="AVNS_Op6uEvdNOBGoOueV6Ie"/>
             <property name="eclipselink.ddl-generation" value="create-or-extend-tables"/>
             <property name="eclipselink.ddl-generation.output-mode" value="database"/>
             <property name="eclipselink.logging.level" value="FINE"/>
